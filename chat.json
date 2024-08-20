@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "replace the image with an image of a rockstar",
+        "message_id": "guest20082024211234",
+        "timestamp": "20082024211235",
+        "component_file_name": "purple_header_component_1724186943",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Absolutely! I'll replace the current image with a rockstar image.",
         "message_id": "guest20082024211234",
