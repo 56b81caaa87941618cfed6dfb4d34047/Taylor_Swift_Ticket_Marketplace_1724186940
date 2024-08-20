@@ -14,5 +14,9 @@
     {
         "level": 1,
         "task_description": "This is the user's current request of changes to be made:\nredesign this component beautiful (like taylor swift) with red glitter"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's current request of changes to be made:\nedit this to allow users to pick a seat, view prices by seat, and recommend an aisle seat. and lets use best practices for tailwide with shadows and glassmorphisms"
     }
 ]
