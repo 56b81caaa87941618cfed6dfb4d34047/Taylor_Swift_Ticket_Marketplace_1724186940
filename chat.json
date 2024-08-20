@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the form to be a single-page, straightforward process, or involve multiple steps for selecting tickets, entering personal information, and confirmation?\", \"option1\": \"Single-page form\", \"option2\": \"Multi-step form\"}, {\"question 2\": \"Do you have specific fields you want included in the form aside from the basic name, email, and payment information (for example, a field for promotional codes or seat selection preferences)?\", \"option1\": \"Yes, include additional fields (please specify)\", \"option2\": \"No, just the basic fields\"}], \"input_token_count\": 405, \"output_token_count\": 130, \"time_taken\": \"0:00:03.835570\"}",
+        "message_id": "guest20082024205151",
+        "timestamp": "20082024205156",
+        "component_file_name": "purple_feature_grid_component_1724186943",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, I'll start working on implementing a red-themed Tailwind form to purchase Taylor Swift concert tickets.",
         "message_id": "guest20082024205151",
