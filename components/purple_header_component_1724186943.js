@@ -9,13 +9,13 @@ Vue.component("purple_header_component_1724186943", {
     <header class="w-full z-30" id="header-section-container" style="min-height: 110px">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
             <div class="flex items-center justify-between h-16 md:h-20">
-    
+
                 <div id="site-branding" class="flex-1">
                     <a id="logo-link" class="inline-flex" href="index.html" aria-label="Cruip">
-                        <img id="logo-image" class="max-w-none" src="./images/logo.svg" width="38" height="38" alt="Stellar">
+                        <img id="logo-image" class="max-w-none" src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Taylor_Swift_Ticket_Marketplace_1724186940/main/images/b80d6a52ff52439fbb0eb0c669273a9b.jpeg" width="38" height="38" alt="Stellar">
                     </a>
                 </div>
-    
+
                 <nav id="desktop-navigation" class="hidden md:flex md:grow">
                     <ul id="desktop-menu-links" class="flex grow justify-center flex-wrap items-center">
                         <li>
@@ -35,7 +35,7 @@ Vue.component("purple_header_component_1724186943", {
                         </li>
                     </ul>
                 </nav>
-    
+
                 <ul id="desktop-sign-in-links" class="flex-1 flex justify-end items-center">
                     <li>
                         <a id="sign-in-link" class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out text-slate-300 hover:text-white" href="signin.html">Sign in</a>
@@ -48,7 +48,7 @@ Vue.component("purple_header_component_1724186943", {
                         </a>
                     </li>
                 </ul>
-    
+
                 <div id="mobile-menu" class="md:hidden flex items-center ml-4" x-data="{ expanded: false }">
                     <button id="hamburger-button" class="hamburger" :class="{ 'active': expanded }" @click.stop="expanded = !expanded" aria-controls="mobile-nav" :aria-expanded="expanded">
                         <span class="sr-only">Menu</span>
@@ -58,7 +58,7 @@ Vue.component("purple_header_component_1724186943", {
                             <rect y="16" width="20" height="2" rx="1" />
                         </svg>
                     </button>
-    
+
                     <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
                         <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]">
                             <li>
@@ -79,7 +79,7 @@ Vue.component("purple_header_component_1724186943", {
                         </ul>
                     </nav>
                 </div>
-    
+
             </div>
         </div>
     </header>`,
