@@ -6,5 +6,9 @@
     {
         "level": 1,
         "task_description": "This is the user's current request of changes to be made:\nreplace the image with a generated image of a mediocre rock star who is big amoung the female us demographic "
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nAI: On it, creating a beautiful table with Red Glitter theme using Tailwind CSS to showcase all upcoming Taylor Swift concerts in the US!\nUser: give me a beatiful table (use beautiful tailwind css) of all upcoming taylor swift concerts in the US with red glitter theme\nUser: replace the image with a generated image of a mediocre rock star who is big amoung the female us demographic \nUser: replace all this content with a form to buy taylor swift concert tix (red theme tailwind)\n\nThis is the user's current request of changes to be made:\nreplace all this content with a form to buy taylor swift concert tix (red theme tailwind)"
     }
 ]
