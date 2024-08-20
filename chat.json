@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you prefer a subtle or bold design approach for the red glitter effect?\", \"option1\": \"Subtle, with light sparkles to enhance the design but not overwhelm.\", \"option2\": \"Bold, with prominent glitter effects to make the component stand out.\"}, {\"question 2\": \"Should the red glitter effect be static or dynamic (interactive)?\", \"option1\": \"Static, to maintain a consistent look throughout the user\\u2019s interaction.\", \"option2\": \"Dynamic, with interactive elements such as glitter movement or intensity changes on hover or click.\"}], \"input_token_count\": 279, \"output_token_count\": 126, \"time_taken\": \"0:00:04.019328\"}",
+        "message_id": "guest20082024205251",
+        "timestamp": "20082024205257",
+        "component_file_name": "purple_background_cta_component_1724186943",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "redesign this component beautiful (like taylor swift) with red glitter",
         "message_id": "guest20082024205251",
