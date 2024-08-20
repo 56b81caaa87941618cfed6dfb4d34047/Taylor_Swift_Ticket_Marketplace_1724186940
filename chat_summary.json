@@ -12,5 +12,11 @@
         "content": "On it, creating a beautiful table with Red Glitter theme using Tailwind CSS to showcase all upcoming Taylor Swift concerts in the US!",
         "timestamp": "20082024205011",
         "message_id": "guest20082024205010"
+    },
+    {
+        "role": "user",
+        "content": "give me a beatiful table (use beautiful tailwind css) of all upcoming taylor swift concerts in the US with red glitter theme",
+        "timestamp": "20082024205011",
+        "message_id": "guest20082024205010"
     }
 ]
