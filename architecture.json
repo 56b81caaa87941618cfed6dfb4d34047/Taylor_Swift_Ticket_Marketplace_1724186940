@@ -18,5 +18,9 @@
     {
         "level": 1,
         "task_description": "This is the user's current request of changes to be made:\nedit this to allow users to pick a seat, view prices by seat, and recommend an aisle seat. and lets use best practices for tailwide with shadows and glassmorphisms"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's current request of changes to be made:\nput the image in a purple border div and make the image smaller. move the image + its div up above the eras tour hero text (currently above it)"
     }
 ]
