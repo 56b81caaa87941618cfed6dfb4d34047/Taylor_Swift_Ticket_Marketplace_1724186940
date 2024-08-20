@@ -24,7 +24,7 @@ Vue.component("purple_hero_component_1724186943", {
                     </div>
                 </div>
                 <div class="flex" id="hero-text-container">
-                    <h1 id="hero-text" class="h1 bg-clip-text text-transparent bg-gradient-to-r from-red-200/60 via-red-200 to-red-200/60 pb-4" data-aos="fade-down">The Ultimate Destination for Taylor Swift Fans</h1>
+                    <h1 id="hero-text" class="h1 text-black pb-4" data-aos="fade-down">The Ultimate Destination for Taylor Swift Fans</h1>
                 </div>
                 <div class="flex" id="sub-hero-text-container">
                     <p id="sub-hero-text" class="flex-1 text-lg mb-8 text-red-100" data-aos="fade-down" data-aos-delay="200">Secure your spot at the next Taylor Swift concert with our trusted marketplace. Buy, sell, and trade tickets with fellow Swifties in a safe and easy-to-use platform.</p>
