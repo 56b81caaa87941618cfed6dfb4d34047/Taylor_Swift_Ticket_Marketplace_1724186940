@@ -66,7 +66,7 @@ Vue.component("purple_feature_grid_component_1724186943", {
     },
     computed: {
         isAisleSeat() {
-            return this.seat.includes('Aisle');
+            return this.seat && this.seat.includes('Aisle');
         }
     },
     methods: {
