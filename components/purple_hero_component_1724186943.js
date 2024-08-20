@@ -27,19 +27,19 @@ Vue.component("purple_hero_component_1724186943", {
                     <h1 id="hero-text" class="h1 text-black pb-4" data-aos="fade-down">The Ultimate Destination for Taylor Swift Fans</h1>
                 </div>
                 <div class="flex" id="sub-hero-text-container">
-                    <p id="sub-hero-text" class="flex-1 text-lg mb-8 text-red-100" data-aos="fade-down" data-aos-delay="200">Secure your spot at the next Taylor Swift concert with our trusted marketplace. Buy, sell, and trade tickets with fellow Swifties in a safe and easy-to-use platform.</p>
+                    <p id="sub-hero-text" class="flex-1 text-lg mb-8 text-black" data-aos="fade-down" data-aos-delay="200">Secure your spot at the next Taylor Swift concert with our trusted marketplace. Buy, sell, and trade tickets with fellow Swifties in a safe and easy-to-use platform.</p>
                 </div>
                 <div id="buttons-container" class="flex justify-center space-x-4 mt-8">
                     <div id="get-started-button-container">
                         <a id="get-started-button" 
-                           class="flex items-center justify-center px-6 py-3 text-white bg-red-600 rounded-lg shadow-md transition duration-150 ease-in-out hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50" 
+                           class="flex items-center justify-center px-6 py-3 text-black bg-red-600 rounded-lg shadow-md transition duration-150 ease-in-out hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50" 
                            href="#0">
                             Get Started 
                             <span id="get-started-arrow" class="ml-2 transform transition-transform duration-150 ease-in-out group-hover:translate-x-0.5">→</span>
                         </a>
                     </div>
                     <div id="docs-button-container">
-                        <a id="docs-button" class="flex items-center justify-center px-6 py-3 text-red-900 bg-red-100 rounded-lg shadow-md transition duration-150 ease-in-out hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50" href="#0">
+                        <a id="docs-button" class="flex items-center justify-center px-6 py-3 text-black bg-red-100 rounded-lg shadow-md transition duration-150 ease-in-out hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50" href="#0">
                             <svg id="docs-icon" class="shrink-0 mr-3 text-red-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                                 <path d="m1.999 0 1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 0l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 10l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM6.292 7.586l2.646-2.647L11.06 7.06 8.413 9.707zM0 13.878l5.586-5.586 2.122 2.121L2.12 16z" />
                             </svg>
