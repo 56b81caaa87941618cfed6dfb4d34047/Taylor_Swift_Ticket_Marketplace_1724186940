@@ -18,5 +18,11 @@
         "content": "give me a beatiful table (use beautiful tailwind css) of all upcoming taylor swift concerts in the US with red glitter theme",
         "timestamp": "20082024205011",
         "message_id": "guest20082024205010"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What details about each concert would you like included in the table (e.g., Date, Venue, City, Ticket Availability)?\", \"option1\": \"Just the basic details: Date, Venue, and City.\", \"option2\": \"Include detailed information: Date, Venue, City, Ticket Availability, and Price.\"}, {\"question 2\": \"For the red glitter theme, do you prefer a subtle glitter effect that is noticeable on interaction or a more pronounced glitter effect visible at all times?\", \"option1\": \"Subtle glitter effect on interaction (e.g., hover).\", \"option2\": \"Pronounced glitter effect visible at all times.\"}], \"input_token_count\": 292, \"output_token_count\": 146, \"time_taken\": \"0:00:04.330097\"}",
+        "timestamp": "20082024205016",
+        "message_id": "guest20082024205010"
     }
 ]
