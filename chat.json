@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the red background, do you have a specific shade of red in mind, or would you like me to choose a vibrant red that complements the overall theme?\", \"option1\": \"I have a specific shade in mind, please use Hex #FF0000.\", \"option2\": \"Please choose a vibrant red that best fits the overall theme.\"}, {\"question 2\": \"Regarding the divs' shades of red, do you prefer a gradual transition of shades from light to dark or specific blocks of distinct red shades?\", \"option1\": \"I prefer a gradual transition of shades from light to dark.\", \"option2\": \"I prefer specific blocks of distinct red shades.\"}], \"input_token_count\": 623, \"output_token_count\": 151, \"time_taken\": \"0:00:08.935815\"}",
+        "message_id": "guest20082024211032",
+        "timestamp": "20082024211043",
+        "component_file_name": "purple_background_cta_component_1724186943",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, adding a red background with white font and red shades to all divs.",
         "message_id": "guest20082024211032",
