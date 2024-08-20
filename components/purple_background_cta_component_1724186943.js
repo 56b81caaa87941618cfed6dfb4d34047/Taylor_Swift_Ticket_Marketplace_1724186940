@@ -26,6 +26,7 @@ Vue.component("purple_background_cta_component_1724186943", {
                     <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4 bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"> Swiftie Central: Your Ultimate Ticket Hub</h2></div>
                     <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8 text-slate-400">Don't miss out on the Eras Tour! Find, buy, and sell Taylor Swift tickets with ease.</p></div>
                     <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span></a>
+                    <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Taylor_Swift_Ticket_Marketplace_1724186940/main/images/25a8f08253bc4e36afa5f49423000172.jpeg" alt="Swifties" class="my-4 rounded-lg" />
                 </div>
             </div>
         </div>
@@ -37,4 +38,3 @@ Vue.component("purple_background_cta_component_1724186943", {
             };
         },
     });
-                    
