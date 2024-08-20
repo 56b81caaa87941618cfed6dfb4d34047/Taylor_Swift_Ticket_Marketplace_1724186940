@@ -1,87 +1,79 @@
-<section class="bg-dark-purple text-white p-6 min-h-screen">
-    <div class="max-w-3xl mx-auto">
-        <h1 class="text-3xl font-bold mb-6">Aave Lending Pool Interaction</h1>
-
-        <!-- Deposit Section -->
-        <div class="mb-6">
-            <h2 class="text-xl font-semibold mb-4">Deposit</h2>
-            <form class="space-y-4">
-                <div>
-                    <label for="depositAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input id="depositAsset" type="text" placeholder="Enter asset address" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                </div>
-                <div>
-                    <label for="depositAmount" class="block text-sm font-medium">Amount</label>
-                    <input id="depositAmount" type="number" placeholder="Enter amount" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                </div>
-                <div>
-                    <label for="depositOnBehalfOf" class="block text-sm font-medium">On Behalf Of</label>
-                    <input id="depositOnBehalfOf" type="text" placeholder="Enter wallet address" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                </div>
-                <button type="submit" class="w-full py-3 bg-purple-600 hover:bg-purple-700 rounded-md font-semibold">Deposit</button>
-            </form>
-        </div>
-
-        <!-- Withdraw Section -->
-        <div class="mb-6">
-            <h2 class="text-xl font-semibold mb-4">Withdraw</h2>
-            <form class="space-y-4">
-                <div>
-                    <label for="withdrawAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input id="withdrawAsset" type="text" placeholder="Enter asset address" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                </div>
-                <div>
-                    <label for="withdrawAmount" class="block text-sm font-medium">Amount</label>
-                    <input id="withdrawAmount" type="number" placeholder="Enter amount" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                </div>
-                <button type="submit" class="w-full py-3 bg-purple-600 hover:bg-purple-700 rounded-md font-semibold">Withdraw</button>
-            </form>
-        </div>
-
-        <!-- Borrow Section -->
-        <div class="mb-6">
-            <h2 class="text-xl font-semibold mb-4">Borrow</h2>
-            <form class="space-y-4">
-                <div>
-                    <label for="borrowAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input id="borrowAsset" type="text" placeholder="Enter asset address" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                </div>
-                <div>
-                    <label for="borrowAmount" class="block text-sm font-medium">Amount</label>
-                    <input id="borrowAmount" type="number" placeholder="Enter amount" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                </div>
-                <div>
-                    <label for="interestRateMode" class="block text-sm font-medium">Interest Rate Mode</label>
-                    <select id="interestRateMode" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                        <option value="1">Stable</option>
-                        <option value="2">Variable</option>
-                    </select>
-                </div>
-                <button type="submit" class="w-full py-3 bg-purple-600 hover:bg-purple-700 rounded-md font-semibold">Borrow</button>
-            </form>
-        </div>
-
-        <!-- Repay Section -->
-        <div class="mb-6">
-            <h2 class="text-xl font-semibold mb-4">Repay</h2>
-            <form class="space-y-4">
-                <div>
-                    <label for="repayAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input id="repayAsset" type="text" placeholder="Enter asset address" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                </div>
-                <div>
-                    <label for="repayAmount" class="block text-sm font-medium">Amount</label>
-                    <input id="repayAmount" type="number" placeholder="Enter amount" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                </div>
-                <div>
-                    <label for="repayRateMode" class="block text-sm font-medium">Rate Mode</label>
-                    <select id="repayRateMode" class="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-purple-500">
-                        <option value="1">Stable</option>
-                        <option value="2">Variable</option>
-                    </select>
-                </div>
-                <button type="submit" class="w-full py-3 bg-purple-600 hover:bg-purple-700 rounded-md font-semibold">Repay</button>
-            </form>
-        </div>
+Vue.component("purple_feature_grid_component_1724186943", {
+    template: `
+    <div class="bg-red-100 p-8 rounded-lg shadow-lg backdrop-blur-md bg-opacity-80">
+        <h2 class="text-3xl font-bold text-red-800 mb-6">Buy Taylor Swift Concert Tickets</h2>
+        <form class="space-y-4" @submit.prevent="submitForm">
+            <div>
+                <label for="concert" class="block text-red-700 font-semibold mb-2">Select Concert</label>
+                <select v-model="concert" id="concert" class="w-full p-2 border border-red-300 rounded-md focus:ring-red-500 focus:border-red-500 shadow-sm">
+                    <option value="">Choose a concert</option>
+                    <option value="new-york">New York - August 15, 2023</option>
+                    <option value="los-angeles">Los Angeles - September 2, 2023</option>
+                    <option value="chicago">Chicago - September 20, 2023</option>
+                </select>
+            </div>
+            <div>
+                <label for="seat" class="block text-red-700 font-semibold mb-2">Select Seat</label>
+                <select v-model="seat" id="seat" class="w-full p-2 border border-red-300 rounded-md focus:ring-red-500 focus:border-red-500 shadow-sm">
+                    <option value="">Choose a seat</option>
+                    <option v-for="(price, seat) in seatPrices" :key="seat" :value="seat">
+                        {{ seat }} - ${{ price }}
+                    </option>
+                </select>
+            </div>
+            <div v-if="isAisleSeat" class="bg-green-100 p-4 rounded-md shadow-sm">
+                <p class="text-green-700"><i class='bx bx-check-circle'></i> We recommend this aisle seat for easy access!</p>
+            </div>
+            <div>
+                <label for="tickets" class="block text-red-700 font-semibold mb-2">Number of Tickets</label>
+                <input v-model.number="tickets" type="number" id="tickets" min="1" max="10" class="w-full p-2 border border-red-300 rounded-md focus:ring-red-500 focus:border-red-500 shadow-sm">
+            </div>
+            <div>
+                <label for="name" class="block text-red-700 font-semibold mb-2">Full Name</label>
+                <input v-model="name" type="text" id="name" class="w-full p-2 border border-red-300 rounded-md focus:ring-red-500 focus:border-red-500 shadow-sm">
+            </div>
+            <div>
+                <label for="email" class="block text-red-700 font-semibold mb-2">Email</label>
+                <input v-model="email" type="email" id="email" class="w-full p-2 border border-red-300 rounded-md focus:ring-red-500 focus:border-red-500 shadow-sm">
+            </div>
+            <div>
+                <button type="submit" class="w-full bg-red-600 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 shadow-md">
+                    Purchase Tickets
+                </button>
+            </div>
+        </form>
     </div>
-</section>
+    `,
+    data() {
+        return {
+            concert: '',
+            seat: '',
+            tickets: 1,
+            name: '',
+            email: '',
+            seatPrices: {
+                'A1 (Aisle)': 150,
+                'A2': 140,
+                'A3': 140,
+                'B1 (Aisle)': 130,
+                'B2': 120,
+                'B3': 120,
+                'C1 (Aisle)': 110,
+                'C2': 100,
+                'C3': 100,
+            }
+        };
+    },
+    computed: {
+        isAisleSeat() {
+            return this.seat.includes('Aisle');
+        }
+    },
+    methods: {
+        submitForm() {
+            // Handle form submission logic here
+            console.log('Form submitted:', this.concert, this.seat, this.tickets, this.name, this.email);
+            // Add your form submission logic here
+        }
+    }
+});
