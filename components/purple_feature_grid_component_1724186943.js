@@ -17,7 +17,7 @@ Vue.component("purple_feature_grid_component_1724186943", {
                 <select v-model="seat" id="seat" class="w-full p-2 border border-red-300 rounded-md focus:ring-red-500 focus:border-red-500 shadow-sm">
                     <option value="">Choose a seat</option>
                     <option v-for="(price, seat) in seatPrices" :key="seat" :value="seat">
-                        {{ seat }} - ${{ price }}
+                        23B - $450
                     </option>
                 </select>
             </div>
