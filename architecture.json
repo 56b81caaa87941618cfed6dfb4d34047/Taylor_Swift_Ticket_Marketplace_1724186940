@@ -1,1 +1,6 @@
-[]
+[
+    {
+        "level": 1,
+        "task_description": "This is the user's current request of changes to be made:\ngive me a beatiful table (use beautiful tailwind css) of all upcoming taylor swift concerts in the US with red glitter theme"
+    }
+]
