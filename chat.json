@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you want the footer completely removed from all pages, or just from the page displaying the upcoming Taylor Swift tour table?\", \"option1\": \"Remove from all pages\", \"option2\": \"Remove only from the tour table page\"}, {\"question 2\": \"Should any functionality or links currently in the footer be relocated to another part of the website?\", \"option1\": \"Yes, relocate the functionalities/links\", \"option2\": \"No, they can be removed entirely\"}], \"input_token_count\": 278, \"output_token_count\": 111, \"time_taken\": \"0:00:06.237804\"}",
+        "message_id": "guest20082024210647",
+        "timestamp": "20082024210654",
+        "component_file_name": "dark_footer_component_1724186943",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Alright, I'll remove the footer and leave only the tour table.",
         "message_id": "guest20082024210647",
