@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the red theme to predominantly feature a specific shade of red (e.g., bright red for a bold look, dark red for a more subdued appearance) or should we incorporate a broad spectrum of red shades equally throughout the design?\", \"option1\": \"Use a specific shade of red predominantly\", \"option2\": \"Incorporate a broad spectrum of red shades equally\"}, {\"question 2\": \"For the 'lots of red styles and shades,' do you prefer a gradient effect where the red shades transition smoothly, or a block design where different shades of red are used distinctly in separate elements?\", \"option1\": \"Use a gradient effect for smooth transitions\", \"option2\": \"Use a block design with distinct shades in separate elements\"}], \"input_token_count\": 669, \"output_token_count\": 165, \"time_taken\": \"0:00:05.319367\"}",
+        "message_id": "guest20082024210738",
+        "timestamp": "20082024210745",
+        "component_file_name": "purple_hero_component_1724186943",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Understood, creating a vibrant red theme with various styles.",
         "message_id": "guest20082024210738",
