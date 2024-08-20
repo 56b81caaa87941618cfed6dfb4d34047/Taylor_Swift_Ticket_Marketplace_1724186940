@@ -8,7 +8,7 @@
 
 Vue.component("dark_footer_component_1724186943", {
     template: `
-<footer id="footer-section-container" style="min-height: 470px" >
+<footer id="footer-section-container" style="min-height: 270px"  >
     <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
         <!-- Taylor Swift Concerts Table -->
         <div class="py-8">
