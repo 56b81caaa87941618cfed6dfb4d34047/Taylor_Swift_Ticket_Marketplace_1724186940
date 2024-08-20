@@ -47,6 +47,7 @@ Vue.component("purple_hero_component_1724186943", {
                         </a>
                     </div>
                 </div>
+                <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Taylor_Swift_Ticket_Marketplace_1724186940/main/images/9f1c7459c2c14beb982a1531905a30f0.jpeg" alt="Hero Illustration" class="my-8"/>
             </div>
         </div>
     </div>
